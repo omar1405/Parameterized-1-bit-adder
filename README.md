@@ -2,7 +2,7 @@
 //31 Aug    : I will upload all the files tomorrow due to no current access to workplace.
 //
 //
-# Parameterized-1-bit-adder
+# Parameterized-n-bit-adder
 these are a group of python scripts that generate an adder's module, test-values, and testbench, in Verilog-2001 language.
 These files were created as a part of my internship. I am still new to python, 
 so the source code probably has a better way of implementation, but it should be fast.
@@ -15,6 +15,7 @@ this repository contains the following:
     - input: n/a
   - AdderGenerator.py    :   creates the parametrized module ---> gen_adder.v .
     - input: number of input bits.
+    - contains self-checking too.
   - tb_file_gen.py       :   reads number of input bits in gen_adder.v and generates accordingly the data file accordingly ---> tb_file
     - input: number of test cases.
   - tb_AdderGenerator.py :   reads the previously generated files and creates the tb verilog module ---> tb_gen_adder.v
