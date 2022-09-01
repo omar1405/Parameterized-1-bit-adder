@@ -1,4 +1,5 @@
-// I will upload all the files tomorrow due to no current access to workplace.
+//01 Sept   : py files uploaded + Makefile
+//31 Aug    : I will upload all the files tomorrow due to no current access to workplace.
 //
 //
 # Parameterized-1-bit-adder
@@ -22,8 +23,9 @@ this repository contains the following:
 
 - 1xMakefile:
   - has several targets.
-    including ones that run ModelSim (v19.1). 
-    This could be edited via editing the definition of Enviro. Vari. 'vsim' inside the Makefile.
+  - including ones that run ModelSim (v19.1). 
+    This could be edited via editing the definition of Enviro. Vari. 'vsim' inside the Makefile: vsim:= /home/omarvm/intelFPGA/<version>/modelsim_ase/bin/vsim
+
     
 - 2x.do file:
   - all.do           :   
