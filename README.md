@@ -10,7 +10,7 @@ so the source code probably has a better way of implementation, but it should be
 # Content
 this repository contains the following:
 
-- 4 * python scripts + main.py, that are user-interactive, but also could be run automatically (each have default values):
+- 4x python scripts + main.py, that are user-interactive, but also could be run automatically (each have default values):
   - python2verilog.py    :   contains personally-created functions in an attempt to create a library .
     - input: n/a
   - AdderGenerator.py    :   creates the parametrized module ---> gen_adder.v .
@@ -22,13 +22,13 @@ this repository contains the following:
     - input: period of testbench, for a timescale of 1ns/1ns.
   - main.py              :   runs python scripts b-d.
 
-- 1xMakefile:
+- 1x Makefile:
   - has several targets.
   - including ones that run ModelSim (v19.1). 
     This could be edited via editing the definition of Enviro. Vari. 'vsim' inside the Makefile: vsim:= /home/omarvm/intelFPGA/<version>/modelsim_ase/bin/vsim
 
     
-- 2x.do file:
+- 2x .do file:
   - all.do           :   
     - creates a work library
     - deletes previous simulations and data
